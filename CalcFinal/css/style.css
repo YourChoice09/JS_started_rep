@@ -1,0 +1,127 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 14px;
+	color: #252b42;
+	font-family: Montserrat;
+	font-weight: 500;
+}
+
+.NewCssStyle {
+	border: 5px solid green;
+}
+
+.NewCssStyle2{
+	border: 5px solid green;
+}
+
+.HideElement{
+	display: none;
+}
+
+.ShowElement{
+	display: initial;
+}
+
+.NewPClass{
+	width: 300px;
+	transition-property: width;
+	transition-duration: 4s;
+}
+
+.CalculatorContainer{
+	width: 400px;
+	height: 150px;
+	background: #abcdef;
+	margin:  50px auto;
+	border: 2px solid black;
+	padding: 15px 15px;
+}
+.MiniContainer{
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	border-bottom: 2px solid black;
+}
+
+.CalcPlus{
+	width: 40px;
+	height: 40px;
+	border: 1.5px solid black;
+	padding: 10px 10px;
+	background: #a0a0a0;
+}
+.CalcMinus{
+	width: 40px;
+	height: 40px;
+	border: 1.5px solid black;
+	padding: 10px 10px;
+	background: #a0a0a0;
+}
+.CalcMnozh{
+	width: 40px;
+	height: 40px;
+	border: 1.5px solid black;
+	padding: 10px 10px;
+	background: #a0a0a0;
+}
+.CalcDel{
+	width: 40px;
+	height: 40px;
+	border: 1.5px solid black;
+	padding: 10px 10px;
+	background: #a0a0a0;
+}
+
+.InputContainer{
+	height: 60px;
+	display: flex;
+}
+
+.InputFirstContainer{
+	margin: 10px 0 0 0;
+}
+.InpitFirst{
+	margin: 3px 0 0 0;
+	width: 100px;
+	border: 1.5px solid black;
+}
+.InputTwice{
+	margin: 3px 0 0 0;
+	width: 100px;
+	border: 1.5px solid black;
+}
+
+.InputTwiceContainer{
+	margin: 10px 0 0 100px;
+}
