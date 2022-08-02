@@ -1,0 +1,102 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 14px;
+	color: #252b42;
+	font-family: Montserrat;
+	font-weight: 500;
+}
+
+.NewCssStyle {
+	border: 5px solid green;
+}
+
+.NewCssStyle2{
+	border: 5px solid green;
+}
+
+.HideElement{
+	display: none;
+}
+
+.ShowElement{
+	display: initial;
+}
+
+.NewPClass{
+	width: 300px;
+	transition-property: width;
+	transition-duration: 4s;
+}
+.NewPClassHide{
+	width: 0px;
+}
+
+.InputPasswordCl{
+	border: 1px solid black;
+}
+
+.ButtonPassCl{
+	border: 1px solid black;
+}
+
+.GreenBorder{
+	border: 1px solid green;
+}
+
+.StatusContainer{
+	border: 2px solid black;
+	margin: 20px 20px 0 550px;
+	min-width: 80px;
+	min-height: 80px;
+	max-width: 300px;
+}
+
+.ButtonSave{
+	border: 1px solid black;
+	margin: 30px 0px 10px 120px;
+	
+}
+
+.InputStatus{
+	border: 1px solid black;
+	width: 100%;
+}
+
+.InputOrSpanContainer{
+	width: 100%;
+}
+
+.InputChange1{
+	border: 1px solid black;
+}
